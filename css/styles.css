@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+header, main, nav, footer, #container {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Trocchi', serif;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+main {
+    font-size: 20px;
+}
+
+footer {
+    font-size: 1em;
+    color: grey;
+}
+
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color: white; /* by default, links are blue */
+}
+
+nav a:hover {
+    border-bottom:2px orange solid;
+    font-size: 2em;
+    transition: 0s;
+}
+
+nav a:target {
+    color: grey;
+}
+
+#me, #welcomeText {
+  float: left;
+  width: 40%;
+}
+
+#me img {
+    padding-left: 230px;
+    width: 50%;
+}
+
+#welcomeText {
+    text-align: left;
+}
+
+#logo img {
+    width: 10%;
+}
+
+footer {
+    clear: both;
+}
+
+table {
+    padding-top: 10px;
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    text-align: left;
+    padding-left: 500px;
+}
+
+.hobby {
+    color: yellow;
+}
+
+table {
+    text-align: center;
+}
+
+#content {
+    text-align: center;
+}
