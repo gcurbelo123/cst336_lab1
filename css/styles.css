@@ -1,44 +1,60 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: #676767;
 }
 
 header, main, nav, footer, #container {
     text-align: center;
 }
 
+#name {
+    text-decoration: none;
+}
+
 h1 {
     font-family: 'Trocchi', serif;
-    font-size: 4em;
+    font-weight: bold;
+    font-size: 4vw;
+    /*text-decoration: none;*/
     margin-bottom: 0px;
+    color: #676767;
 }
 
 main {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 footer {
+    position: absolute;
+    bottom: 10px;
+    height: 20px;
+    left: 10px;
+    right: 10px;
     font-size: 1em;
-    color: grey;
+    color: #676767;
+    clear: both;
 }
 
 nav a {
-    padding: 15px;
-    padding-bottom: 4px;
-    font-size: 1.8em;
+    padding: 10px;
+    padding-top: 4px;
+    font-size: 1.5em;
+    width: 100px;
     text-decoration: none; /* removes underline */
-    color: white; /* by default, links are blue */
+    color: #676767;
+    border-top: 2px grey solid;
 }
 
 nav a:hover {
-    border-bottom:2px orange solid;
+    border-bottom:2px grey solid;
     font-size: 2em;
-    transition: 0s;
+    font-weight: bold;
+    transition: 0.2s;
 }
 
-nav a:target {
-    color: grey;
-}
+/*nav a:target {*/
+/*    color: #32CD32;*/
+/*}*/
 
 #me, #welcomeText {
   float: left;
@@ -46,8 +62,10 @@ nav a:target {
 }
 
 #me img {
-    padding-left: 230px;
+    padding-left: 20vw;
     width: 50%;
+    margin: 10px 0px 15px;
+    display: inline-block;
 }
 
 #welcomeText {
@@ -58,12 +76,8 @@ nav a:target {
     width: 10%;
 }
 
-footer {
-    clear: both;
-}
-
 table {
-    padding-top: 10px;
+    padding-top: 20px;
     margin: 0px auto;
 }
 
@@ -90,13 +104,25 @@ ul {
 }
 
 .hobby {
-    color: yellow;
+    color: #F7B733;
 }
 
 table {
+    width: 100%;
     text-align: center;
 }
 
 #content {
     text-align: center;
+}
+
+#currentLink a {
+    font-weight: bold;
+    color: #33e510;
+}
+
+iframe {
+    padding-top: 50px;
+    height: 1100px;
+    width: 100%;
 }
