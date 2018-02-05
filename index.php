@@ -33,6 +33,7 @@ Personal Portfolio
             <span id = "currentLink"><a href = "index.php">Home</a></span>
             <a href = "about.html">About</a>
             <a href = "contact.html">Contact</a>
+            <a href = "projects.html">Projects</a>
         </nav>
         
         <main>
